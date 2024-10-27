@@ -30,8 +30,8 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Bleucraft c'est bien :|", "auteur": "kiz___" },
-            { "message": "Jsp quoi dire !", "auteur": "Btex" },
+            { "message": "Bleucraft c'est bien :|", "author": "kiz___" },
+            { "message": "Jsp quoi dire !", "author": "Btex" },
             { "message": "C'est qui est heberg c'est nous", "author": "Jtheberg.cloud" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
